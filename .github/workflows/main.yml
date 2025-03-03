@@ -4,8 +4,8 @@ jobs:
   Testing:
     runs-on: ubuntu-latest
     steps:
-      - name: Code chechout
-        uses: actions/chechout@v4
+      - name: Code checkout
+        uses: actions/checkout@v4
 
       - name: Maven test
         run: mvn test
